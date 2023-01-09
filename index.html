@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kemana Aja Tour and Travel Website Company</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+      <a href="#" class="logo"><span>T</span>ravel</a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+    <!-- Akhir Header -->
+
+    <!-- Login Form Container -->
+
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+
+      <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your password" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an aacount?<a href="#">register now</a></p>
+      </form>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Adventure is worthwhile</h3>
+        <p>discover new places with us, adventure await</p>
+        <a href="#" class="btn">discover more</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" src="img/vid-1.mp4"></span>
+        <span class="vid-btn" src="img/vid-2.mp4"></span>
+        <span class="vid-btn" src="img/vid-3.mp4"></span>
+        <span class="vid-btn" src="img/vid-4.mp4"></span>
+        <span class="vid-btn" src="img/vid-5.mp4"></span>
+      </div>
+      <div class="video-container">
+        <video src="img/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+      </div>
+    </section>
+    <!-- Home Section Akhir -->
+
+    <!-- Book Section -->
+    <section class="book" id="book">
+      <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="img/book-img.svg" alt="" />
+        </div>
+
+        <form>
+          <div class="inputBox">
+            <h3>where to</h3>
+            <input type="text" placeholder="place name" />
+          </div>
+          <div class="inputBox">
+            <h3>how many</h3>
+            <input type="number" placeholder="number of guests" />
+          </div>
+          <div class="inputBox">
+            <h3>arrivals</h3>
+            <input type="date" />
+          </div>
+          <div class="inputBox">
+            <h3>living</h3>
+            <input type="date" />
+          </div>
+          <input type="submit" class="btn" value="book now" />
+        </form>
+      </div>
+    </section>
+    <!-- Book Section Akhir -->
+
+    <!-- Packages section -->
+    <section class="packages" id="packages">
+      <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/p1.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Labuan Bajo</h3>
+            <p>Labuan Bajo merupakan desa ini terletak di Kecamatan Komodo,Kabupaten Manggarai Barat,Provinsi Nusa Tenggara Timur</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">IDR.2,5jt <span>IDR.4jt</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/p2.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Pulau Dewata</h3>
+            <p>Pulau Dewata atau Bali sebagai tempat wisata memiliki daya tarik khusus oleh wisatawan asing dan lokal.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="price">IDR.1,5jt <span>IDR.2.3jt</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/p3.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Raja Ampat</h3>
+            <p>Raja Ampat adalah sebuah kabupaten dan merupakan bagian dari Propinsi Papua Barat.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="price">IDR.2jt <span>IDR.4,5jt</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/p4.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Yogyakarta</h3>
+            <p>Yogyakarta memiliki arsitektur mengagumkan dan suasana spiritual yang terasa kuat.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">IDR.1jt<span>IDR.1,5jt</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/p5.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Gunung Bromo</h3>
+            <p>Taman Nasional Bromo Tengger Semeru merupakan kawasan konservasi di Indonesia yang memiliki lautan pasir seluas 10.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="price">IDR.1jt<span>IDR.1,2jt</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/p6.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Lombok</h3>
+            <p>Pulau Lombok adalah sebuah pulau di kepulauan Sunda Kecil atau Nusa Tenggara</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="price">IDR.1,8jt<span>IDR.2,5jt</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Packages section akhir -->
+
+    <!-- Service Section -->
+    <section class="services" id="services">
+      <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-hotel"></i>
+          <h3>Affordable Hotels</h3>
+          <p>menyediakan vasilitas hotel yang nyaman,berkualitas dan terbaik</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-utensils"></i>
+          <h3>Food and Drinks</h3>
+          <p>menyediakan vasilitas makan dan minum baik itu sarapan,makan siang,makan malam ataupun snack secara gratis</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-bullhorn"></i>
+          <h3>Safety guide</h3>
+          <p>memberikan vasilitas keamanan dan keselamatan selama menggunakan layanan trip kami</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-globe-asia"></i>
+          <h3>Around the World</h3>
+          <p>memberikan vasilitas berpergian ke destinasi yang tentunya menarik dan unik</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-plane"></i>
+          <h3>Fastest travel</h3>
+          <p>menyediakan vasilitas berpergian yang cepat,aman dengan harga terjangkau</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-hiking"></i>
+          <h3>Adaventure</h3>
+          <p>memberikan vasilitas pengalaman berpergian dengan berpetualang ke tempat menarik</p>
+        </div>
+      </div>
+    </section>
+    <!-- Service Section akhir -->
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+      <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="img/g1.jpg" alt="" />
+          <div class="content">
+            <h3>Pulau Padar</h3>
+            <p>Di tujuan wisata Labuan Bajo satu ini,disuguhkan keindahan gugusan pulau yang eksotis dan perbukitan cantik</p>
+            <a href="#" class="btn">See more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/g2.jpg" alt="" />
+          <div class="content">
+            <h3>Tari Kecak</h3>
+            <p>Tarian ini ritual tradisional yang dilakukan masyarakat Bali diadaptasi dalam cerita Ramayana dalam kepercayaan Hindu</p>
+            <a href="#" class="btn">See more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/g3.jpg" alt="" />
+          <div class="content">
+            <h3>Malioboro</h3>
+            <p>Malioboro Yogyakarta merupakan tempat belanja yang menjadi ikon dari kota Yogyakarta.</p>
+            <a href="#" class="btn">See more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/g4.jpg" alt="" />
+          <div class="content">
+            <h3>Wayag</h3>
+            <p>Wayag adalah Jejeran batu karang berbalut warna hijau di tengah lautan biru</p>
+            <a href="#" class="btn">See more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/g5.jpg" alt="" />
+          <div class="content">
+            <h3>Gunung Bromo</h3>
+            <p>Gunung Bromo terkenal dengan keindahan alamnya Panorama eksotik yang disuguhkan menarik wisatawan</p>
+            <a href="#" class="btn">See more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/g6.jpg" alt="" />
+          <div class="content">
+            <h3>Pink Beach</h3>
+            <p>Pantai Pink Lombok merupakan pasir pantai berwarna pink dan juga tidak memiliki ombak besar</p>
+            <a href="#" class="btn">See more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/g7.jpg" alt="" />
+          <div class="content">
+            <h3>Pulau Komodo</h3>
+            <p>Pulau ini dihuni oleh habitat naga komodo, kadal terbesar diseluruh dunia.</p>
+            <a href="#" class="btn">See more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/g8.jpg" alt="" />
+          <div class="content">
+            <h3>Candi Borobudur</h3>
+            <p>Candi Borobudur adalah monumen Buddha terbesar di dunia dan dianggap sebagai salah satu dari tujuh keajaiban dunia</p>
+            <a href="#" class="btn">See more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery Section akhir -->
+
+    <!-- review section -->
+    <section class="review" id="review">
+      <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+      </h1>
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="img/pic1.png" alt="" />
+              <h3>Alisa M.</h3>
+              <p>Pelayanan Sangat baik dan memuaskan</p>
+              <div class="stars">
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="far fa-stars"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="img/pic2.png" alt="" />
+              <h3>Johny Andrean.</h3>
+              <p>Perjalanan nya sangan nyaman dan vasilitas yang diberikan sangat baik</p>
+              <div class="stars">
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="far fa-stars"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="img/pic3.png" alt="" />
+              <h3>Laura Annisa</h3>
+              <p>It was memorable trip!</p>
+              <div class="stars">
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="img/pic4.png" alt="" />
+              <h3>Liam P.</h3>
+              <p>Perjalanan yang asik dan seru</p>
+              <div class="stars">
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review section akhir -->
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+      </h1>
+      <div class="row">
+        <div class="image">
+          <img src="img/contact-img.svg" alt="" />
+        </div>
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="name" />
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="number" />
+            <input type="text" placeholder="subject" />
+          </div>
+          <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+          <input type="submit" class="btn" value="send message" />
+        </form>
+      </div>
+    </section>
+    <!-- contact section akhir -->
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>about us</h3>
+          <p>Kemana Aja Travel is one of the best and trusted tour and travel</p>
+        </div>
+        <div class="box">
+          <h3>Branch Locations</h3>
+          <a href="#">Jakarta</a>
+          <a href="#">Bali</a>
+          <a href="#">Nusa Tenggara</a>
+          <a href="#">Papua</a>
+          <a href="#">Lombok</a>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home">Home</a>
+          <a href="#book">book</a>
+          <a href="#packages">packages</a>
+          <a href="#services">services</a>
+          <a href="#gallery">gallery</a>
+          <a href="#review">review</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="box">
+          <h3>Follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">Tiktok</a>
+        </div>
+      </div>
+      <h1 class="credit">created by <span>Syahbrina Dinova</span>| all rights reserved!</h1>
+    </section>
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
